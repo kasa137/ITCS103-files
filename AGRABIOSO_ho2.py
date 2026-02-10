@@ -12,7 +12,7 @@ label.pack(padx = 5,pady = 20)
 label = unak.Label(window,text = " Age : 18 years old", font =("garamond",20),bg = "purple")
 label.pack(padx = 5,pady = 20,anchor = "w")
 
-label = unak.Label(window,text = "Course : BSIT ", font =("garamond",20),bg = "purple")
+label = unak.Label(window,text = "Course & Section : BSIT-1B", font =("garamond",20),bg = "purple")
 label.pack(padx = 5,pady = 20,anchor = "w")
 
 label = unak.Label(window,text = "Birthday : March 13, 2007  ", font =("garamond",20),bg = "purple")
