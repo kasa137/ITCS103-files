@@ -1,0 +1,13 @@
+import openpyxl as ts
+
+workbook = ts.Workbook()
+sheet = workbook.active
+
+sheet['A1'] = "Name"
+sheet['B1'] = "Equipment"
+sheet['C1'] = "Quantity"
+sheet['D1'] = "Date"
+sheet['E1'] = "Condition"
+
+workbook.save("Agrabioso_database.xlsx")
+  
